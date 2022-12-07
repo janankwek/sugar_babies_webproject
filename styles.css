@@ -1,0 +1,453 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+  }
+  
+  .top-nav {
+    
+    background-color: #FFCD5B;
+    height: 80px;
+    display: flex;
+    position:fixed;
+    width:100%;
+    z-index:3;
+    
+  }
+  
+  .logo {
+    
+    height: 50px;
+    display: block;
+    padding-right:40px;
+    
+  }
+  
+  #hamburger-menu {
+    
+    padding-top:35px;
+    padding-left:20px;
+    height:20
+    
+   
+  }
+
+  .hamburger-icon {
+
+    height:20px;
+    width:20px;
+
+  }
+  
+  .nav-buttons {
+    
+    font-family: 'Montserrat';
+    color: #705295;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+   
+  }
+  
+  .in-between-background {
+    
+    position:fixed;
+    height: 100vh;
+    width:100%;
+    z-index:2;
+    
+    
+  }
+  
+  .hero-container {
+    
+    height: 500px;
+    z-index:1;
+    background-color: #FFCD5B;
+    width:1500px;
+    
+  }
+
+  .hero-top {
+
+    height: 400px;
+    width: 100%;
+
+
+  }   
+
+  .hero-middle {
+
+    height: px;
+    width: 420px;
+    position:absolute;
+    top: 90px;
+    left: 30px;
+  }
+
+  .hero-bottom {
+
+
+    height: 400px;
+    width: 100%;
+    position:absolute;
+    top: 185px;
+    left: 0px;
+    z-index:-0.5;
+
+  } 
+  
+  .h1-container {
+
+    
+    position:absolute;
+    top:390px;
+    left:80px;
+    text-align:center;
+    align-items: center;
+    
+  }
+  
+.h1 {
+    
+    font-family: 'Montserrat';
+    color: #743aba;
+    font-weight: bold;
+    font-size: 23px;
+    text-align:center;
+ 
+}
+
+.h1-2 {
+
+    font-family: 'Montserrat';
+    color: white;
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+
+.order-button {
+
+    background-color: #8b53d0;
+    width: 200px;
+    height: 35px;
+    padding-top:7px;
+    margin-top:10px;
+    margin-left:70px;
+    border-radius:8px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color:white;
+    box-shadow: 4px 4px rgba(28, 7, 118, 0.722);
+    cursor: pointer;
+    position:absolute;
+    z-index:1;
+
+}
+
+.order-button:hover {
+    background-color: rgb(255,120,71);
+    
+  }
+
+  .order-button:active {
+    background-color: rgb(255,120,71);
+    transform: translateY(2px);
+  }
+
+  .fruits-section {
+    
+    background-color: #EFA6A7;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 40px;
+   
+    
+  }
+  
+  
+  .dutch-melon-container {
+    
+    background-color:#F47D4D;
+    height:380px;
+    width: 390px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-radius:10px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .dutch-melon-photo {
+  
+    width: 300px;
+    height: 200px;
+    border-radius: 3%;
+    
+  }
+  
+  .honey-melon-container {
+    
+    background-color:#79C474;
+    height:380px;
+    width: 390px;
+    display:flex;
+    justify-content: center;
+     align-items: flex-start;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-radius:10px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .honey-melon-photo {
+  
+    width: 300px;
+    height: 200px;
+    border-radius: 3%;
+    
+  }
+  
+  .mini-watermelon-container {
+    
+    background-color:#FFCD5B;
+    height:380px;
+    width: 390px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-radius:10px;
+    margin-bottom: 20px;
+  }
+  
+  .mini-watermelon-photo {
+  
+    width: 300px;
+    height: 200px;
+    border-radius: 3%;
+    
+  }
+  
+  .hokkaido-melon-container {
+    
+    background-color:#FFC0C1;
+    height:380px;
+    width: 390px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-radius:10px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .hokkaido-melon-photo {
+  
+    width: 300px;
+    height: 200px;
+    border-radius: 3%;
+    
+  }
+  
+  .black-melon-container {
+    
+    background-color:#F47D4D;
+    height:380px;
+    width: 390px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-radius:10px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .black-melon-photo {
+  
+    width: 300px;
+    height: 200px;
+    border-radius: 3%;
+    
+  }
+  
+  .footer {
+    background-color:#732978;
+    height: 200px;
+    font-size:12px;
+    list-style:none;
+    color:white;
+    font-family: 'Montserrat';
+    font-weight:bold;
+    padding: 30px;
+  }
+  
+  .footer li {
+   
+    padding: 10px;
+  }
+  
+  
+  .side-menu {
+    background-color: #79C474;
+    height:100%;
+    top: 0;
+    opacity: 0;
+    padding: 15px 5px;
+    position: fixed;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(-100%);
+    z-index: 4;
+    
+    }
+  
+  .menu-open {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  
+  .side-menu a, .side-menu a:focus, .side-menu a:visited {
+    color: white;
+    font-family: 'Montserrat';
+    display: block;
+    font-size: 15px;
+    margin: 25px 35px;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  #menu-close {
+    
+    background-color: orange;
+    color: #fff;
+    font-family: 'Montserrat';
+    margin:10px 10px 0 10px;
+    padding-top: 5px;
+    text-align: center; 
+    height:30px;
+    width:30px;
+    border-radius: 3px;
+    cursor:pointer;
+  
+  }
+  
+  #menu-close:hover {
+      background-color: coral;
+      color: white;
+  
+  }
+  
+  .menu-buttons a {
+   
+    border-bottom: 0.1px solid lightgrey;
+    padding:20px;
+   
+   
+  }
+  
+  #menu-1-button, #menu-2-button, #menu-3-button, #menu-4-button  {
+    
+    display:none;
+    
+  }
+  
+  @media screen and (min-width: 600px) {
+    #menu-1-button, #menu-2-button, #menu-3-button, #menu-4-button  {
+    
+    padding: 50px;
+    display:block;
+      
+    }
+    
+  }
+  
+  @media screen and (min-width: 600px) {    
+    #hamburger-menu {
+    
+    padding-top:35px;
+    padding-left:20px;
+    display:none;
+    
+      
+    }
+  }
+      
+      @media screen and (min-width: 600px) {    
+    .logo {
+    
+    padding:0px;
+    display: block;
+      margin: 0 auto;
+  
+  }
+    
+    }
+
+    @media screen and (min-width: 600px) {
+    .hero-container {
+
+    
+        display:grid;
+        grid-template-columns: 1fr;
+        height:500px;
+       
+        
+      }
+
+    }
+
+    @media screen and (min-width: 600px) {
+    
+
+      .hero-container {
+    
+        height: 500px;
+        z-index:1;
+        background-color: #FFCD5B;
+        width:100vw;
+        
+      }
+
+      .hero-top {
+
+        height: 380px;
+        width: 500px;
+    
+    
+      }   
+
+      
+      .hero-middle {
+    
+        height: 380px;
+        width: 420px;
+        
+        
+      }
+    
+      .hero-bottom {
+    
+    
+        height: 380px;
+        width: 500px;
+      
+      
+        z-index:-0.5;
+
+      }
+    }
